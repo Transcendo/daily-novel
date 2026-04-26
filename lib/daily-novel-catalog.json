@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T09:00:49+08:00",
+  "generatedAt": "2026-04-26T14:01:23+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -64,6 +64,15 @@
       "charsNonspace": 3719,
       "charsChinese": 3134,
       "description": "3719 非空字符 / 3134 中文字"
+    },
+    {
+      "date": "2026-04-26",
+      "title": "缺口里的手",
+      "href": "/novels/2026-04-26",
+      "path": "content/docs/novels/2026-04-26.mdx",
+      "charsNonspace": 3700,
+      "charsChinese": 3153,
+      "description": "3700 非空字符 / 3153 中文字"
     }
   ],
   "cards": [
@@ -191,10 +200,10 @@
     }
   ],
   "totals": {
-    "novels": 7,
+    "novels": 8,
     "cards": 8,
     "reviews": 7,
-    "novelCharsNonspace": 25006,
-    "novelCharsChinese": 21417
+    "novelCharsNonspace": 28706,
+    "novelCharsChinese": 24570
   }
 }
