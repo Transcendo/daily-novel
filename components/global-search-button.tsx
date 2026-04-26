@@ -6,7 +6,7 @@ import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 export function GlobalSearchButton({
-	children = "搜索 AI 术语",
+	children = "搜索小说",
 	className,
 }: {
 	children?: ReactNode;

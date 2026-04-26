@@ -79,7 +79,7 @@ export function DocsSidebar() {
 		>
 			<Link
 				href="/"
-				aria-label="返回 Content Show 首页"
+				aria-label="返回 Daily Novel 首页"
 				className="group flex h-(--docs-topbar-height) shrink-0 items-center gap-2.5 border-b border-foreground/5 px-4 text-left transition-colors hover:bg-foreground/3"
 			>
 				<ContentShowLogo
@@ -88,10 +88,10 @@ export function DocsSidebar() {
 				/>
 				<span className="min-w-0">
 					<span className="block truncate text-sm font-semibold leading-4 text-foreground">
-						Content Show
+						Daily Novel
 					</span>
 					<span className="block truncate text-[11px] leading-3 text-foreground/50">
-						AI 知识学习站
+						每日短篇小说归档
 					</span>
 				</span>
 			</Link>
@@ -101,7 +101,7 @@ export function DocsSidebar() {
 				onClick={() => setOpenSearch(true)}
 			>
 				<Search className="size-4 shrink-0" />
-				<span className="truncate">搜索 AI 术语和文章</span>
+				<span className="truncate">搜索小说、题材卡和复盘</span>
 				<kbd className="ml-auto inline-flex items-center gap-0.5 shrink-0 text-[10px] font-mono text-foreground/40 border border-foreground/10 rounded-md px-1.5 py-0.5">
 					<span className="text-[11px]">&#8984;</span>K
 				</kbd>
@@ -167,7 +167,7 @@ export function DocsSidebar() {
 			{/* Footer: GitHub + Theme Toggle */}
 			<div className="flex items-center gap-1 p-2 border-t border-foreground/5 text-foreground/40">
 				<a
-					href="https://github.com/Transcendo/content-show"
+					href="https://github.com/Transcendo/daily-novel"
 					target="_blank"
 					rel="noreferrer noopener"
 					className="inline-flex items-center justify-center size-8 hover:text-foreground/70 hover:bg-foreground/5 transition-colors"

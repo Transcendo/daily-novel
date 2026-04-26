@@ -145,8 +145,11 @@ def main() -> None:
     write(DOCS / 'cards' / 'meta.json', json.dumps({'title': '题材卡', 'pages': ['index'] + [x['date'] for x in reversed(cards)]}, ensure_ascii=False, indent=2) + '\n')
     write(DOCS / 'reviews' / 'meta.json', json.dumps({'title': '写作复盘', 'pages': ['index'] + [x['date'] for x in reversed(reviews)]}, ensure_ascii=False, indent=2) + '\n')
 
+    cst = timezone(timedelta(hours=8))
+    source_files = list(NOVEL_SRC.glob('*.md')) + list(CARD_SRC.glob('*.md')) + list(REVIEW_SRC.glob('*.md'))
+    latest_mtime = max((p.stat().st_mtime for p in source_files if p.exists()), default=datetime.now(cst).timestamp())
     catalog = {
-        'generatedAt': datetime.now(timezone(timedelta(hours=8))).isoformat(timespec='seconds'),
+        'generatedAt': datetime.fromtimestamp(latest_mtime, cst).isoformat(timespec='seconds'),
         'sourceRoot': str(SOURCE_ROOT),
         'novels': novels,
         'cards': cards,
