@@ -1,0 +1,29 @@
+<svg width="960" height="540" viewBox="0 0 960 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" rx="24" fill="#0B1020"/>
+  <text x="480" y="72" text-anchor="middle" fill="#F8FAFC" font-size="34" font-family="Arial, sans-serif" font-weight="700">对齐关注的不是一句指令，而是三层是否一致</text>
+  <text x="480" y="110" text-anchor="middle" fill="#94A3B8" font-size="18" font-family="Arial, sans-serif">目标、行为、结果只要有一层歪了，系统就可能看起来正常、实际却跑偏</text>
+
+  <rect x="110" y="170" width="220" height="210" rx="22" fill="#1D4ED8"/>
+  <text x="220" y="225" text-anchor="middle" fill="#EFF6FF" font-size="30" font-family="Arial, sans-serif" font-weight="700">目标</text>
+  <text x="220" y="268" text-anchor="middle" fill="#DBEAFE" font-size="18" font-family="Arial, sans-serif">我们真正想要什么</text>
+  <text x="220" y="304" text-anchor="middle" fill="#DBEAFE" font-size="18" font-family="Arial, sans-serif">不能只写 KPI</text>
+  <text x="220" y="340" text-anchor="middle" fill="#DBEAFE" font-size="18" font-family="Arial, sans-serif">还要包含边界与例外</text>
+
+  <rect x="370" y="170" width="220" height="210" rx="22" fill="#7C3AED"/>
+  <text x="480" y="225" text-anchor="middle" fill="#F5F3FF" font-size="30" font-family="Arial, sans-serif" font-weight="700">行为</text>
+  <text x="480" y="268" text-anchor="middle" fill="#EDE9FE" font-size="18" font-family="Arial, sans-serif">训练、拒答、工具调用</text>
+  <text x="480" y="304" text-anchor="middle" fill="#EDE9FE" font-size="18" font-family="Arial, sans-serif">权限控制、人工确认</text>
+  <text x="480" y="340" text-anchor="middle" fill="#EDE9FE" font-size="18" font-family="Arial, sans-serif">要让过程可控</text>
+
+  <rect x="630" y="170" width="220" height="210" rx="22" fill="#0F766E"/>
+  <text x="740" y="225" text-anchor="middle" fill="#ECFDF5" font-size="30" font-family="Arial, sans-serif" font-weight="700">结果</text>
+  <text x="740" y="268" text-anchor="middle" fill="#CCFBF1" font-size="18" font-family="Arial, sans-serif">输出有没有伤害</text>
+  <text x="740" y="304" text-anchor="middle" fill="#CCFBF1" font-size="18" font-family="Arial, sans-serif">是否合规、可靠、可复核</text>
+  <text x="740" y="340" text-anchor="middle" fill="#CCFBF1" font-size="18" font-family="Arial, sans-serif">不能只看演示效果</text>
+
+  <path d="M330 275H370" stroke="#94A3B8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M590 275H630" stroke="#94A3B8" stroke-width="10" stroke-linecap="round"/>
+
+  <rect x="165" y="416" width="630" height="70" rx="18" fill="#111827" stroke="#334155"/>
+  <text x="480" y="458" text-anchor="middle" fill="#E2E8F0" font-size="22" font-family="Arial, sans-serif">对齐的核心问题：系统是不是在正确目标下，用可控方式，产出可接受结果</text>
+</svg>

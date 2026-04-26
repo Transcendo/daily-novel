@@ -1,0 +1,9 @@
+{
+  "title": "Daily Novel",
+  "root": true,
+  "pages": [
+    "novels",
+    "cards",
+    "reviews"
+  ]
+}

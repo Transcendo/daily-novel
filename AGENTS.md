@@ -1,12 +1,24 @@
 # AGENTS.md - daily-novel
 
-This repository publishes and archives the daily short novels generated in the local `yuhua` writing workspace.
+This repository is a Fumadocs / Next.js static documentation site for the local yuhua daily short-novel project.
 
-## Purpose
+## What this repo is for
 
-- Keep a clean GitHub mirror of the daily novel project.
-- Sync finished short stories, topic cards, reviews, and a machine-readable catalog from the local source workspace.
-- Preserve a lightweight public/static reading structure without editing generated output by hand.
+- Publishing a readable GitHub Pages site for daily short stories.
+- Syncing finished novels, topic cards, and writing reviews from the local yuhua workspace.
+- Preserving original manuscripts while presenting them through the same Fumadocs-style framework used by `content-show`.
+
+## Technical overview
+
+- Framework: Next.js 16 App Router.
+- Docs system: Fumadocs MDX.
+- Package manager: pnpm.
+- Static output: `next.config.js` exports to `out/` for GitHub Pages.
+- Public route prefix on GitHub Pages: `/daily-novel`.
+- Public docs routes:
+  - `/novels`
+  - `/cards`
+  - `/reviews`
 
 ## Source of truth
 
@@ -16,38 +28,31 @@ Local source workspace:
 - Topic cards: `/Users/djd/Documents/github/yuhua/draft/短篇小说日更/题材卡/`
 - Reviews: `/Users/djd/Documents/github/yuhua/review/短篇小说日更复盘/`
 
-Do not invent missing novels. If today's source novel does not exist yet, sync previous finished content and report that today's manuscript is not ready.
+Generated Fumadocs pages:
 
-## Repository structure
+- `content/docs/novels/*.mdx`
+- `content/docs/cards/*.mdx`
+- `content/docs/reviews/*.mdx`
+- `lib/daily-novel-catalog.json`
 
-- `content/novels/YYYY/MM/*.md` — synced finished daily stories
-- `content/cards/YYYY/MM/*.md` — synced daily topic cards
-- `content/reviews/YYYY/MM/*.md` — synced daily reviews
-- `content/catalog.json` — generated catalog with counts, titles, paths, and character stats
-- `README.md` — generated human-facing index summary
-- `scripts/sync_yuhua_daily_novel.py` — sync/generate script
-- `scripts/validate_daily_novel.py` — repository integrity checks
-- `scripts/build_site.py` — dependency-free static HTML export for GitHub Pages
-- `Memory.md` — concise project memory / operation log
+## Commands
 
-## Daily maintenance workflow
+```bash
+pnpm install
+python3 scripts/sync_yuhua_daily_novel.py
+python3 scripts/validate_daily_novel.py
+pnpm build
+```
 
-1. `git fetch origin`
-2. Rebase or reset safely to `origin/main` if local changes are not meaningful.
-3. Run `python3 scripts/sync_yuhua_daily_novel.py`.
-4. Run `python3 scripts/validate_daily_novel.py`.
-5. Run `python3 scripts/build_site.py`.
-6. Commit and push only when files changed.
-7. If validation/build fails, fix the repo before pushing; if it cannot be fixed, do not push broken content.
+## Daily maintenance rules
 
-## Editorial rules
-
-- Preserve original story text. Do not rewrite synced manuscripts during maintenance.
-- Generated indexes may be updated freely by scripts.
-- Keep filenames stable: `YYYY-MM-DD_title.md` for novels, `YYYY-MM-DD.md` for cards/reviews.
-- Keep content Chinese-first.
-- Prefer simple, durable Markdown over framework churn.
+1. Preserve original story text. Do not rewrite manuscripts during repo maintenance.
+2. Run sync before validation/build.
+3. If today's source manuscript is missing, do not fabricate content; sync existing files only.
+4. If build fails, fix the Fumadocs/Next.js project before pushing.
+5. Commit and push only after validation/build pass.
+6. Do not edit generated `out/`, `.next/`, `.source/`, or `node_modules/` directly.
 
 ## Cron expectation
 
-The OpenClaw cron job should run after the yuhua daily novel generation task, not before it. The current intended window is around 15:10 Asia/Shanghai.
+The OpenClaw cron job should run after the yuhua 14:00 daily story generation task. Current intended schedule: 15:10 Asia/Shanghai.

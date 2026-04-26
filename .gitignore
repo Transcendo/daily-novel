@@ -1,13 +1,11 @@
-# dependencies / generated
-node_modules/
-.DS_Store
+.next
+node_modules
+.pnpm-store
+.source
 .env
-.env.local
+.DS_Store
+next-env.d.ts
+tsconfig.tsbuildinfo
 
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-
-# generated static site
-site/
+out
+cicd/docker/out

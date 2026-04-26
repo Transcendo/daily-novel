@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Superintelligence risk map</title>
+  <desc id="desc">A risk map for superintelligence discussions separating capability, control, concentration, and governance lag.</desc>
+  <rect width="1200" height="720" fill="#f6f7f5"/>
+  <text x="600" y="86" text-anchor="middle" font-family="Geist, Arial, sans-serif" font-size="40" font-weight="700" fill="#11140f">ASI discussions are mostly governance discussions today</text>
+  <g font-family="Geist, Arial, sans-serif">
+    <rect x="135" y="180" width="390" height="170" fill="#ffffff" stroke="#11140f" stroke-opacity=".25" stroke-width="3"/>
+    <text x="330" y="242" text-anchor="middle" font-size="28" font-weight="700" fill="#11140f">Capability uncertainty</text>
+    <text x="330" y="287" text-anchor="middle" font-size="19" fill="#596157">Will systems generalize broadly?</text>
+    <rect x="675" y="180" width="390" height="170" fill="#f7efe1" stroke="#be3a34" stroke-width="4"/>
+    <text x="870" y="242" text-anchor="middle" font-size="28" font-weight="700" fill="#11140f">Control problem</text>
+    <text x="870" y="287" text-anchor="middle" font-size="19" fill="#596157">Can humans supervise stronger systems?</text>
+    <rect x="135" y="420" width="390" height="170" fill="#fff7d4" stroke="#d99200" stroke-width="4"/>
+    <text x="330" y="482" text-anchor="middle" font-size="28" font-weight="700" fill="#11140f">Power concentration</text>
+    <text x="330" y="527" text-anchor="middle" font-size="19" fill="#596157">Who controls the most capable models?</text>
+    <rect x="675" y="420" width="390" height="170" fill="#e8f4ee" stroke="#315f4a" stroke-width="4"/>
+    <text x="870" y="482" text-anchor="middle" font-size="28" font-weight="700" fill="#11140f">Governance lag</text>
+    <text x="870" y="527" text-anchor="middle" font-size="19" fill="#596157">Can rules keep up with deployment?</text>
+  </g>
+  <path d="M525 265 H675M525 505 H675M330 350 V420M870 350 V420" stroke="#11140f" stroke-opacity=".25" stroke-width="5"/>
+</svg>

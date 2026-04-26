@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">RAG flow</title>
+  <desc id="desc">A retrieval augmented generation flow from user question to retrieval, context injection, model answer, and citation checks.</desc>
+  <rect width="1200" height="720" fill="#f6f7f5"/>
+  <text x="600" y="82" text-anchor="middle" font-family="Geist, Arial, sans-serif" font-size="42" font-weight="700" fill="#11140f">Retrieval-Augmented Generation</text>
+  <g font-family="Geist, Arial, sans-serif">
+    <rect x="70" y="210" width="190" height="120" fill="#ffffff" stroke="#11140f" stroke-opacity=".25" stroke-width="3"/>
+    <text x="165" y="265" text-anchor="middle" font-size="25" font-weight="700" fill="#11140f">Question</text>
+    <text x="165" y="298" text-anchor="middle" font-size="17" fill="#596157">what user asks</text>
+    <rect x="325" y="210" width="190" height="120" fill="#e8f4ee" stroke="#315f4a" stroke-width="4"/>
+    <text x="420" y="265" text-anchor="middle" font-size="25" font-weight="700" fill="#11140f">Retrieve</text>
+    <text x="420" y="298" text-anchor="middle" font-size="17" fill="#596157">search trusted docs</text>
+    <rect x="580" y="210" width="190" height="120" fill="#fff7d4" stroke="#d99200" stroke-width="4"/>
+    <text x="675" y="265" text-anchor="middle" font-size="25" font-weight="700" fill="#11140f">Context</text>
+    <text x="675" y="298" text-anchor="middle" font-size="17" fill="#596157">insert evidence</text>
+    <rect x="835" y="210" width="190" height="120" fill="#f7efe1" stroke="#be3a34" stroke-width="4"/>
+    <text x="930" y="265" text-anchor="middle" font-size="25" font-weight="700" fill="#11140f">Generate</text>
+    <text x="930" y="298" text-anchor="middle" font-size="17" fill="#596157">answer with model</text>
+  </g>
+  <path d="M260 270 H325M515 270 H580M770 270 H835" stroke="#11140f" stroke-width="5" stroke-opacity=".35"/>
+  <rect x="260" y="430" width="680" height="120" fill="#ffffff" stroke="#11140f" stroke-opacity=".2" stroke-width="3"/>
+  <text x="600" y="480" text-anchor="middle" font-family="Geist, Arial, sans-serif" font-size="28" font-weight="700" fill="#11140f">Check answer against retrieved sources</text>
+  <text x="600" y="520" text-anchor="middle" font-family="Geist, Arial, sans-serif" font-size="20" fill="#596157">RAG reduces unsupported answers, but bad retrieval still produces bad grounding.</text>
+</svg>

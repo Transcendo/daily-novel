@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Show Editorial Standard"
+  short_description: "Write and review Content Show AI knowledge content."
+  default_prompt: "Use this skill to draft, review, or revise Content Show AI glossary and knowledge pages with source-backed editorial standards."

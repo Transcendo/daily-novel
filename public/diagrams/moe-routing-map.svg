@@ -1,0 +1,20 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#0B1020"/>
+  <rect x="120" y="280" width="210" height="140" rx="24" fill="#1D4ED8"/>
+  <rect x="450" y="120" width="290" height="110" rx="24" fill="#7C3AED"/>
+  <rect x="450" y="305" width="290" height="110" rx="24" fill="#0F766E"/>
+  <rect x="450" y="490" width="290" height="110" rx="24" fill="#334155"/>
+  <rect x="870" y="280" width="210" height="140" rx="24" fill="#EA580C"/>
+  <path d="M330 350H450" stroke="#93C5FD" stroke-width="8" stroke-linecap="round"/>
+  <path d="M740 175H810C840 175 840 280 870 280" stroke="#93C5FD" stroke-width="8" stroke-linecap="round"/>
+  <path d="M740 360H870" stroke="#93C5FD" stroke-width="8" stroke-linecap="round"/>
+  <path d="M740 545H810C840 545 840 420 870 420" stroke="#475569" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 18"/>
+  <text x="225" y="340" fill="white" font-size="34" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">输入 token</text>
+  <text x="225" y="385" fill="#DBEAFE" font-size="26" font-family="Arial, sans-serif" text-anchor="middle">先进入路由判断</text>
+  <text x="595" y="185" fill="white" font-size="32" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">专家 A</text>
+  <text x="595" y="370" fill="white" font-size="32" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">专家 B</text>
+  <text x="595" y="555" fill="#E2E8F0" font-size="32" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">专家 C（本次未激活）</text>
+  <text x="975" y="340" fill="white" font-size="34" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">输出结果</text>
+  <text x="975" y="385" fill="#FED7AA" font-size="26" font-family="Arial, sans-serif" text-anchor="middle">只汇总被选中的专家</text>
+  <text x="600" y="664" fill="#94A3B8" font-size="28" font-family="Arial, sans-serif" text-anchor="middle">MoE 的关键：很多专家常驻模型内部，但每次只激活少数模块参与计算</text>
+</svg>

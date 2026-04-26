@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-04-26T10:20:24+08:00",
+  "sourceRoot": "/Users/djd/Documents/github/yuhua",
+  "novels": [
+    {
+      "date": "2026-04-19",
+      "title": "活人追悼会",
+      "href": "/novels/2026-04-19",
+      "path": "content/docs/novels/2026-04-19.mdx",
+      "charsNonspace": 3783,
+      "charsChinese": 3202,
+      "description": "3783 非空字符 / 3202 中文字"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "替身值班",
+      "href": "/novels/2026-04-20",
+      "path": "content/docs/novels/2026-04-20.mdx",
+      "charsNonspace": 2879,
+      "charsChinese": 2506,
+      "description": "2879 非空字符 / 2506 中文字"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "通知对象",
+      "href": "/novels/2026-04-21",
+      "path": "content/docs/novels/2026-04-21.mdx",
+      "charsNonspace": 4591,
+      "charsChinese": 3916,
+      "description": "4591 非空字符 / 3916 中文字"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "留灯十分钟",
+      "href": "/novels/2026-04-22",
+      "path": "content/docs/novels/2026-04-22.mdx",
+      "charsNonspace": 4288,
+      "charsChinese": 3623,
+      "description": "4288 非空字符 / 3623 中文字"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "校服袖口",
+      "href": "/novels/2026-04-23",
+      "path": "content/docs/novels/2026-04-23.mdx",
+      "charsNonspace": 2727,
+      "charsChinese": 2390,
+      "description": "2727 非空字符 / 2390 中文字"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "停机十年的号码",
+      "href": "/novels/2026-04-24",
+      "path": "content/docs/novels/2026-04-24.mdx",
+      "charsNonspace": 3019,
+      "charsChinese": 2646,
+      "description": "3019 非空字符 / 2646 中文字"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "一零七码牌",
+      "href": "/novels/2026-04-25",
+      "path": "content/docs/novels/2026-04-25.mdx",
+      "charsNonspace": 3719,
+      "charsChinese": 3134,
+      "description": "3719 非空字符 / 3134 中文字"
+    }
+  ],
+  "cards": [
+    {
+      "date": "2026-04-19",
+      "title": "题材卡 2026-04-19",
+      "href": "/cards/2026-04-19",
+      "path": "content/docs/cards/2026-04-19.mdx",
+      "charsNonspace": 513,
+      "charsChinese": 444
+    },
+    {
+      "date": "2026-04-20",
+      "title": "题材卡 2026-04-20",
+      "href": "/cards/2026-04-20",
+      "path": "content/docs/cards/2026-04-20.mdx",
+      "charsNonspace": 514,
+      "charsChinese": 442
+    },
+    {
+      "date": "2026-04-21",
+      "title": "题材卡 2026-04-21",
+      "href": "/cards/2026-04-21",
+      "path": "content/docs/cards/2026-04-21.mdx",
+      "charsNonspace": 469,
+      "charsChinese": 394
+    },
+    {
+      "date": "2026-04-22",
+      "title": "题材卡 2026-04-22",
+      "href": "/cards/2026-04-22",
+      "path": "content/docs/cards/2026-04-22.mdx",
+      "charsNonspace": 517,
+      "charsChinese": 449
+    },
+    {
+      "date": "2026-04-23",
+      "title": "题材卡 2026-04-23",
+      "href": "/cards/2026-04-23",
+      "path": "content/docs/cards/2026-04-23.mdx",
+      "charsNonspace": 444,
+      "charsChinese": 379
+    },
+    {
+      "date": "2026-04-24",
+      "title": "题材卡 2026-04-24",
+      "href": "/cards/2026-04-24",
+      "path": "content/docs/cards/2026-04-24.mdx",
+      "charsNonspace": 449,
+      "charsChinese": 384
+    },
+    {
+      "date": "2026-04-25",
+      "title": "题材卡 2026-04-25",
+      "href": "/cards/2026-04-25",
+      "path": "content/docs/cards/2026-04-25.mdx",
+      "charsNonspace": 455,
+      "charsChinese": 390
+    },
+    {
+      "date": "2026-04-26",
+      "title": "题材卡 2026-04-26",
+      "href": "/cards/2026-04-26",
+      "path": "content/docs/cards/2026-04-26.mdx",
+      "charsNonspace": 532,
+      "charsChinese": 459
+    }
+  ],
+  "reviews": [
+    {
+      "date": "2026-04-19",
+      "title": "复盘 2026-04-19",
+      "href": "/reviews/2026-04-19",
+      "path": "content/docs/reviews/2026-04-19.mdx",
+      "charsNonspace": 247,
+      "charsChinese": 206
+    },
+    {
+      "date": "2026-04-20",
+      "title": "复盘 2026-04-20",
+      "href": "/reviews/2026-04-20",
+      "path": "content/docs/reviews/2026-04-20.mdx",
+      "charsNonspace": 182,
+      "charsChinese": 159
+    },
+    {
+      "date": "2026-04-21",
+      "title": "复盘 2026-04-21",
+      "href": "/reviews/2026-04-21",
+      "path": "content/docs/reviews/2026-04-21.mdx",
+      "charsNonspace": 183,
+      "charsChinese": 158
+    },
+    {
+      "date": "2026-04-22",
+      "title": "复盘 2026-04-22",
+      "href": "/reviews/2026-04-22",
+      "path": "content/docs/reviews/2026-04-22.mdx",
+      "charsNonspace": 191,
+      "charsChinese": 165
+    },
+    {
+      "date": "2026-04-23",
+      "title": "复盘 2026-04-23",
+      "href": "/reviews/2026-04-23",
+      "path": "content/docs/reviews/2026-04-23.mdx",
+      "charsNonspace": 174,
+      "charsChinese": 149
+    },
+    {
+      "date": "2026-04-24",
+      "title": "复盘 2026-04-24",
+      "href": "/reviews/2026-04-24",
+      "path": "content/docs/reviews/2026-04-24.mdx",
+      "charsNonspace": 192,
+      "charsChinese": 166
+    },
+    {
+      "date": "2026-04-25",
+      "title": "复盘 2026-04-25",
+      "href": "/reviews/2026-04-25",
+      "path": "content/docs/reviews/2026-04-25.mdx",
+      "charsNonspace": 248,
+      "charsChinese": 215
+    }
+  ],
+  "totals": {
+    "novels": 7,
+    "cards": 8,
+    "reviews": 7,
+    "novelCharsNonspace": 25006,
+    "novelCharsChinese": 21417
+  }
+}
