@@ -18,10 +18,10 @@ const fontMono = localFont({
 
 export const metadata: Metadata = createMetadata({
 	title: {
-		template: "%s | Content Show",
-		default: "Content Show",
+		template: "%s | Daily Novel",
+		default: "Daily Novel",
 	},
-	description: "普通人也能读懂的 AI 知识学习与资料整理站。",
+	description: "雨桦每日短篇小说、题材卡与写作复盘归档。",
 });
 
 export default function RootLayout({ children }: { children: ReactNode }) {
