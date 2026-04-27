@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T14:01:23+08:00",
+  "generatedAt": "2026-04-27T14:01:28+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -73,6 +73,15 @@
       "charsNonspace": 3700,
       "charsChinese": 3153,
       "description": "3700 非空字符 / 3153 中文字"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "消防栓里的钱",
+      "href": "/novels/2026-04-27",
+      "path": "content/docs/novels/2026-04-27.mdx",
+      "charsNonspace": 3148,
+      "charsChinese": 2662,
+      "description": "3148 非空字符 / 2662 中文字"
     }
   ],
   "cards": [
@@ -139,6 +148,14 @@
       "path": "content/docs/cards/2026-04-26.mdx",
       "charsNonspace": 532,
       "charsChinese": 459
+    },
+    {
+      "date": "2026-04-27",
+      "title": "题材卡 2026-04-27",
+      "href": "/cards/2026-04-27",
+      "path": "content/docs/cards/2026-04-27.mdx",
+      "charsNonspace": 740,
+      "charsChinese": 622
     }
   ],
   "reviews": [
@@ -197,13 +214,21 @@
       "path": "content/docs/reviews/2026-04-25.mdx",
       "charsNonspace": 248,
       "charsChinese": 215
+    },
+    {
+      "date": "2026-04-26",
+      "title": "复盘 2026-04-26",
+      "href": "/reviews/2026-04-26",
+      "path": "content/docs/reviews/2026-04-26.mdx",
+      "charsNonspace": 1107,
+      "charsChinese": 926
     }
   ],
   "totals": {
-    "novels": 8,
-    "cards": 8,
-    "reviews": 7,
-    "novelCharsNonspace": 28706,
-    "novelCharsChinese": 24570
+    "novels": 9,
+    "cards": 9,
+    "reviews": 8,
+    "novelCharsNonspace": 31854,
+    "novelCharsChinese": 27232
   }
 }
