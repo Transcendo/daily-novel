@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T14:01:28+08:00",
+  "generatedAt": "2026-04-28T14:02:57+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -82,6 +82,15 @@
       "charsNonspace": 3148,
       "charsChinese": 2662,
       "description": "3148 非空字符 / 2662 中文字"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "一块钱的置顶",
+      "href": "/novels/2026-04-28",
+      "path": "content/docs/novels/2026-04-28.mdx",
+      "charsNonspace": 3604,
+      "charsChinese": 2974,
+      "description": "3604 非空字符 / 2974 中文字"
     }
   ],
   "cards": [
@@ -156,6 +165,14 @@
       "path": "content/docs/cards/2026-04-27.mdx",
       "charsNonspace": 740,
       "charsChinese": 622
+    },
+    {
+      "date": "2026-04-28",
+      "title": "题材卡 2026-04-28",
+      "href": "/cards/2026-04-28",
+      "path": "content/docs/cards/2026-04-28.mdx",
+      "charsNonspace": 743,
+      "charsChinese": 646
     }
   ],
   "reviews": [
@@ -222,13 +239,21 @@
       "path": "content/docs/reviews/2026-04-26.mdx",
       "charsNonspace": 1107,
       "charsChinese": 926
+    },
+    {
+      "date": "2026-04-27",
+      "title": "复盘 2026-04-27",
+      "href": "/reviews/2026-04-27",
+      "path": "content/docs/reviews/2026-04-27.mdx",
+      "charsNonspace": 1084,
+      "charsChinese": 898
     }
   ],
   "totals": {
-    "novels": 9,
-    "cards": 9,
-    "reviews": 8,
-    "novelCharsNonspace": 31854,
-    "novelCharsChinese": 27232
+    "novels": 10,
+    "cards": 10,
+    "reviews": 9,
+    "novelCharsNonspace": 35458,
+    "novelCharsChinese": 30206
   }
 }
