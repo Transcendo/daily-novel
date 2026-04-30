@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T14:02:57+08:00",
+  "generatedAt": "2026-04-30T14:01:10+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -91,6 +91,24 @@
       "charsNonspace": 3604,
       "charsChinese": 2974,
       "description": "3604 非空字符 / 2974 中文字"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "法拍页还在刷新",
+      "href": "/novels/2026-04-29",
+      "path": "content/docs/novels/2026-04-29.mdx",
+      "charsNonspace": 1148,
+      "charsChinese": 981,
+      "description": "1148 非空字符 / 981 中文字"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "改正条下面",
+      "href": "/novels/2026-04-30",
+      "path": "content/docs/novels/2026-04-30.mdx",
+      "charsNonspace": 1972,
+      "charsChinese": 1641,
+      "description": "1972 非空字符 / 1641 中文字"
     }
   ],
   "cards": [
@@ -173,6 +191,22 @@
       "path": "content/docs/cards/2026-04-28.mdx",
       "charsNonspace": 743,
       "charsChinese": 646
+    },
+    {
+      "date": "2026-04-29",
+      "title": "题材卡 2026-04-29",
+      "href": "/cards/2026-04-29",
+      "path": "content/docs/cards/2026-04-29.mdx",
+      "charsNonspace": 623,
+      "charsChinese": 534
+    },
+    {
+      "date": "2026-04-30",
+      "title": "题材卡 2026-04-30",
+      "href": "/cards/2026-04-30",
+      "path": "content/docs/cards/2026-04-30.mdx",
+      "charsNonspace": 785,
+      "charsChinese": 680
     }
   ],
   "reviews": [
@@ -247,13 +281,21 @@
       "path": "content/docs/reviews/2026-04-27.mdx",
       "charsNonspace": 1084,
       "charsChinese": 898
+    },
+    {
+      "date": "2026-04-28",
+      "title": "复盘 2026-04-28",
+      "href": "/reviews/2026-04-28",
+      "path": "content/docs/reviews/2026-04-28.mdx",
+      "charsNonspace": 1168,
+      "charsChinese": 962
     }
   ],
   "totals": {
-    "novels": 10,
-    "cards": 10,
-    "reviews": 9,
-    "novelCharsNonspace": 35458,
-    "novelCharsChinese": 30206
+    "novels": 12,
+    "cards": 12,
+    "reviews": 10,
+    "novelCharsNonspace": 38578,
+    "novelCharsChinese": 32828
   }
 }
