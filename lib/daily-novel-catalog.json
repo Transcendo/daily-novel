@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T14:01:10+08:00",
+  "generatedAt": "2026-05-02T14:01:54+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -109,6 +109,15 @@
       "charsNonspace": 1972,
       "charsChinese": 1641,
       "description": "1972 非空字符 / 1641 中文字"
+    },
+    {
+      "date": "2026-05-02",
+      "title": "抽屉里的喷雾",
+      "href": "/novels/2026-05-02",
+      "path": "content/docs/novels/2026-05-02.mdx",
+      "charsNonspace": 2924,
+      "charsChinese": 2422,
+      "description": "2924 非空字符 / 2422 中文字"
     }
   ],
   "cards": [
@@ -207,6 +216,22 @@
       "path": "content/docs/cards/2026-04-30.mdx",
       "charsNonspace": 785,
       "charsChinese": 680
+    },
+    {
+      "date": "2026-05-01",
+      "title": "题材卡 2026-05-01",
+      "href": "/cards/2026-05-01",
+      "path": "content/docs/cards/2026-05-01.mdx",
+      "charsNonspace": 918,
+      "charsChinese": 789
+    },
+    {
+      "date": "2026-05-02",
+      "title": "题材卡 2026-05-02",
+      "href": "/cards/2026-05-02",
+      "path": "content/docs/cards/2026-05-02.mdx",
+      "charsNonspace": 939,
+      "charsChinese": 816
     }
   ],
   "reviews": [
@@ -289,13 +314,21 @@
       "path": "content/docs/reviews/2026-04-28.mdx",
       "charsNonspace": 1168,
       "charsChinese": 962
+    },
+    {
+      "date": "2026-04-30",
+      "title": "复盘 2026-04-30",
+      "href": "/reviews/2026-04-30",
+      "path": "content/docs/reviews/2026-04-30.mdx",
+      "charsNonspace": 1174,
+      "charsChinese": 967
     }
   ],
   "totals": {
-    "novels": 12,
-    "cards": 12,
-    "reviews": 10,
-    "novelCharsNonspace": 38578,
-    "novelCharsChinese": 32828
+    "novels": 13,
+    "cards": 14,
+    "reviews": 11,
+    "novelCharsNonspace": 41502,
+    "novelCharsChinese": 35250
   }
 }
