@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T14:01:54+08:00",
+  "generatedAt": "2026-05-03T14:01:43+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -118,6 +118,15 @@
       "charsNonspace": 2924,
       "charsChinese": 2422,
       "description": "2924 非空字符 / 2422 中文字"
+    },
+    {
+      "date": "2026-05-03",
+      "title": "死人账户",
+      "href": "/novels/2026-05-03",
+      "path": "content/docs/novels/2026-05-03.mdx",
+      "charsNonspace": 2236,
+      "charsChinese": 1867,
+      "description": "2236 非空字符 / 1867 中文字"
     }
   ],
   "cards": [
@@ -232,6 +241,14 @@
       "path": "content/docs/cards/2026-05-02.mdx",
       "charsNonspace": 939,
       "charsChinese": 816
+    },
+    {
+      "date": "2026-05-03",
+      "title": "题材卡 2026-05-03",
+      "href": "/cards/2026-05-03",
+      "path": "content/docs/cards/2026-05-03.mdx",
+      "charsNonspace": 681,
+      "charsChinese": 591
     }
   ],
   "reviews": [
@@ -322,13 +339,21 @@
       "path": "content/docs/reviews/2026-04-30.mdx",
       "charsNonspace": 1174,
       "charsChinese": 967
+    },
+    {
+      "date": "2026-05-02",
+      "title": "复盘 2026-05-02",
+      "href": "/reviews/2026-05-02",
+      "path": "content/docs/reviews/2026-05-02.mdx",
+      "charsNonspace": 1298,
+      "charsChinese": 1077
     }
   ],
   "totals": {
-    "novels": 13,
-    "cards": 14,
-    "reviews": 11,
-    "novelCharsNonspace": 41502,
-    "novelCharsChinese": 35250
+    "novels": 14,
+    "cards": 15,
+    "reviews": 12,
+    "novelCharsNonspace": 43738,
+    "novelCharsChinese": 37117
   }
 }
