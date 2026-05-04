@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T14:01:43+08:00",
+  "generatedAt": "2026-05-04T14:01:37+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -127,6 +127,15 @@
       "charsNonspace": 2236,
       "charsChinese": 1867,
       "description": "2236 非空字符 / 1867 中文字"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "胸花掉下来",
+      "href": "/novels/2026-05-04",
+      "path": "content/docs/novels/2026-05-04.mdx",
+      "charsNonspace": 2238,
+      "charsChinese": 1904,
+      "description": "2238 非空字符 / 1904 中文字"
     }
   ],
   "cards": [
@@ -249,6 +258,14 @@
       "path": "content/docs/cards/2026-05-03.mdx",
       "charsNonspace": 681,
       "charsChinese": 591
+    },
+    {
+      "date": "2026-05-04",
+      "title": "题材卡 2026-05-04",
+      "href": "/cards/2026-05-04",
+      "path": "content/docs/cards/2026-05-04.mdx",
+      "charsNonspace": 816,
+      "charsChinese": 701
     }
   ],
   "reviews": [
@@ -347,13 +364,21 @@
       "path": "content/docs/reviews/2026-05-02.mdx",
       "charsNonspace": 1298,
       "charsChinese": 1077
+    },
+    {
+      "date": "2026-05-03",
+      "title": "复盘 2026-05-03",
+      "href": "/reviews/2026-05-03",
+      "path": "content/docs/reviews/2026-05-03.mdx",
+      "charsNonspace": 1263,
+      "charsChinese": 1045
     }
   ],
   "totals": {
-    "novels": 14,
-    "cards": 15,
-    "reviews": 12,
-    "novelCharsNonspace": 43738,
-    "novelCharsChinese": 37117
+    "novels": 15,
+    "cards": 16,
+    "reviews": 13,
+    "novelCharsNonspace": 45976,
+    "novelCharsChinese": 39021
   }
 }
