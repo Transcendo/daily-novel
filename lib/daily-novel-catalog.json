@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T14:01:37+08:00",
+  "generatedAt": "2026-05-05T14:01:29+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -136,6 +136,15 @@
       "charsNonspace": 2238,
       "charsChinese": 1904,
       "description": "2238 非空字符 / 1904 中文字"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "药先喂了",
+      "href": "/novels/2026-05-05",
+      "path": "content/docs/novels/2026-05-05.mdx",
+      "charsNonspace": 2283,
+      "charsChinese": 1877,
+      "description": "2283 非空字符 / 1877 中文字"
     }
   ],
   "cards": [
@@ -266,6 +275,14 @@
       "path": "content/docs/cards/2026-05-04.mdx",
       "charsNonspace": 816,
       "charsChinese": 701
+    },
+    {
+      "date": "2026-05-05",
+      "title": "题材卡 2026-05-05",
+      "href": "/cards/2026-05-05",
+      "path": "content/docs/cards/2026-05-05.mdx",
+      "charsNonspace": 829,
+      "charsChinese": 697
     }
   ],
   "reviews": [
@@ -372,13 +389,21 @@
       "path": "content/docs/reviews/2026-05-03.mdx",
       "charsNonspace": 1263,
       "charsChinese": 1045
+    },
+    {
+      "date": "2026-05-04",
+      "title": "复盘 2026-05-04",
+      "href": "/reviews/2026-05-04",
+      "path": "content/docs/reviews/2026-05-04.mdx",
+      "charsNonspace": 1392,
+      "charsChinese": 1157
     }
   ],
   "totals": {
-    "novels": 15,
-    "cards": 16,
-    "reviews": 13,
-    "novelCharsNonspace": 45976,
-    "novelCharsChinese": 39021
+    "novels": 16,
+    "cards": 17,
+    "reviews": 14,
+    "novelCharsNonspace": 48259,
+    "novelCharsChinese": 40898
   }
 }
