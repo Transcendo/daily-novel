@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T14:02:13+08:00",
+  "generatedAt": "2026-05-08T14:02:58+08:00",
   "sourceRoot": "/Users/djd/Documents/github/yuhua",
   "novels": [
     {
@@ -163,6 +163,15 @@
       "charsNonspace": 5109,
       "charsChinese": 4379,
       "description": "5109 非空字符 / 4379 中文字"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "今晚先别退命",
+      "href": "/novels/2026-05-08",
+      "path": "content/docs/novels/2026-05-08.mdx",
+      "charsNonspace": 3954,
+      "charsChinese": 3310,
+      "description": "3954 非空字符 / 3310 中文字"
     }
   ],
   "cards": [
@@ -317,6 +326,14 @@
       "path": "content/docs/cards/2026-05-07.mdx",
       "charsNonspace": 1087,
       "charsChinese": 893
+    },
+    {
+      "date": "2026-05-08",
+      "title": "题材卡 2026-05-08",
+      "href": "/cards/2026-05-08",
+      "path": "content/docs/cards/2026-05-08.mdx",
+      "charsNonspace": 939,
+      "charsChinese": 762
     }
   ],
   "reviews": [
@@ -447,13 +464,21 @@
       "path": "content/docs/reviews/2026-05-06.mdx",
       "charsNonspace": 2655,
       "charsChinese": 1969
+    },
+    {
+      "date": "2026-05-07",
+      "title": "复盘 2026-05-07",
+      "href": "/reviews/2026-05-07",
+      "path": "content/docs/reviews/2026-05-07.mdx",
+      "charsNonspace": 2347,
+      "charsChinese": 1755
     }
   ],
   "totals": {
-    "novels": 18,
-    "cards": 19,
-    "reviews": 16,
-    "novelCharsNonspace": 58375,
-    "novelCharsChinese": 49496
+    "novels": 19,
+    "cards": 20,
+    "reviews": 17,
+    "novelCharsNonspace": 62329,
+    "novelCharsChinese": 52806
   }
 }
